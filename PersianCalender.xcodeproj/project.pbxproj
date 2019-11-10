@@ -7,27 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		113326DB2370661000A6A518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113326DA2370661000A6A518 /* AppDelegate.swift */; };
-		113326DD2370661000A6A518 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113326DC2370661000A6A518 /* ViewController.swift */; };
-		113326E02370661000A6A518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113326DE2370661000A6A518 /* Main.storyboard */; };
-		113326E32370661000A6A518 /* PersianCalender.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 113326E12370661000A6A518 /* PersianCalender.xcdatamodeld */; };
-		113326E52370661200A6A518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113326E42370661200A6A518 /* Assets.xcassets */; };
-		113326E82370661200A6A518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113326E62370661200A6A518 /* LaunchScreen.storyboard */; };
+		113EA7AF21761CB700EDD862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EA7AE21761CB700EDD862 /* AppDelegate.swift */; };
+		113EA7B121761CB700EDD862 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EA7B021761CB700EDD862 /* ViewController.swift */; };
+		113EA7B421761CB700EDD862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113EA7B221761CB700EDD862 /* Main.storyboard */; };
+		113EA7B621761CB900EDD862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113EA7B521761CB900EDD862 /* Assets.xcassets */; };
+		113EA7B921761CB900EDD862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113EA7B721761CB900EDD862 /* LaunchScreen.storyboard */; };
+		113EA7C321761D9900EDD862 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EA7C121761D9800EDD862 /* CalendarViewController.swift */; };
+		113EA7C421761D9900EDD862 /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113EA7C221761D9800EDD862 /* CalendarViewController.xib */; };
+		113EA7CC21761DF100EDD862 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EA7C621761DF100EDD862 /* Date.swift */; };
+		113EA7CD21761DF100EDD862 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EA7C721761DF100EDD862 /* UIView.swift */; };
+		113EA7CF21761DF100EDD862 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EA7C921761DF100EDD862 /* UIDevice.swift */; };
+		113EA7D32176200C00EDD862 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EA7D22176200B00EDD862 /* Constants.swift */; };
+		113EA7DB2176210700EDD862 /* IRAN Sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 113EA7D62176210700EDD862 /* IRAN Sans.ttf */; };
+		113EA7DC2176210700EDD862 /* IRAN Sans Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 113EA7D72176210700EDD862 /* IRAN Sans Medium.ttf */; };
+		113EA7DD2176210700EDD862 /* IRAN Sans Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 113EA7D82176210700EDD862 /* IRAN Sans Light.ttf */; };
+		113EA7DE2176210700EDD862 /* IRAN Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 113EA7D92176210700EDD862 /* IRAN Sans Bold.ttf */; };
+		113EA7DF2176210700EDD862 /* IRAN Sans UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 113EA7DA2176210700EDD862 /* IRAN Sans UltraLight.ttf */; };
+		113EA7E12176233400EDD862 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EA7E02176233400EDD862 /* UIColor.swift */; };
+		113EA7E3217627CB00EDD862 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EA7E2217627CB00EDD862 /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		113326D72370661000A6A518 /* PersianCalender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersianCalender.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		113326DA2370661000A6A518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		113326DC2370661000A6A518 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		113326DF2370661000A6A518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		113326E22370661000A6A518 /* PersianCalender.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersianCalender.xcdatamodel; sourceTree = "<group>"; };
-		113326E42370661200A6A518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		113326E72370661200A6A518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		113326E92370661200A6A518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113EA7AB21761CB700EDD862 /* PersianCalender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersianCalender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		113EA7AE21761CB700EDD862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		113EA7B021761CB700EDD862 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		113EA7B321761CB700EDD862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		113EA7B521761CB900EDD862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		113EA7B821761CB900EDD862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		113EA7BA21761CB900EDD862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113EA7C121761D9800EDD862 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		113EA7C221761D9800EDD862 /* CalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
+		113EA7C621761DF100EDD862 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		113EA7C721761DF100EDD862 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		113EA7C921761DF100EDD862 /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		113EA7D22176200B00EDD862 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		113EA7D62176210700EDD862 /* IRAN Sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRAN Sans.ttf"; sourceTree = "<group>"; };
+		113EA7D72176210700EDD862 /* IRAN Sans Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRAN Sans Medium.ttf"; sourceTree = "<group>"; };
+		113EA7D82176210700EDD862 /* IRAN Sans Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRAN Sans Light.ttf"; sourceTree = "<group>"; };
+		113EA7D92176210700EDD862 /* IRAN Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRAN Sans Bold.ttf"; sourceTree = "<group>"; };
+		113EA7DA2176210700EDD862 /* IRAN Sans UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRAN Sans UltraLight.ttf"; sourceTree = "<group>"; };
+		113EA7E02176233400EDD862 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		113EA7E2217627CB00EDD862 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		113326D42370661000A6A518 /* Frameworks */ = {
+		113EA7A821761CB700EDD862 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,46 +61,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		113326CE2370661000A6A518 = {
+		113EA7A221761CB700EDD862 = {
 			isa = PBXGroup;
 			children = (
-				113326D92370661000A6A518 /* PersianCalender */,
-				113326D82370661000A6A518 /* Products */,
+				113EA7AD21761CB700EDD862 /* PersianCalender */,
+				113EA7AC21761CB700EDD862 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		113326D82370661000A6A518 /* Products */ = {
+		113EA7AC21761CB700EDD862 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				113326D72370661000A6A518 /* PersianCalender.app */,
+				113EA7AB21761CB700EDD862 /* PersianCalender.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		113326D92370661000A6A518 /* PersianCalender */ = {
+		113EA7AD21761CB700EDD862 /* PersianCalender */ = {
 			isa = PBXGroup;
 			children = (
-				113326DA2370661000A6A518 /* AppDelegate.swift */,
-				113326DC2370661000A6A518 /* ViewController.swift */,
-				113326DE2370661000A6A518 /* Main.storyboard */,
-				113326E42370661200A6A518 /* Assets.xcassets */,
-				113326E62370661200A6A518 /* LaunchScreen.storyboard */,
-				113326E92370661200A6A518 /* Info.plist */,
-				113326E12370661000A6A518 /* PersianCalender.xcdatamodeld */,
+				113EA7AE21761CB700EDD862 /* AppDelegate.swift */,
+				113EA7B021761CB700EDD862 /* ViewController.swift */,
+				113EA7B221761CB700EDD862 /* Main.storyboard */,
+				113EA7D22176200B00EDD862 /* Constants.swift */,
+				113EA7B521761CB900EDD862 /* Assets.xcassets */,
+				113EA7D42176210700EDD862 /* Resources */,
+				113EA7C521761DF100EDD862 /* Extensiones */,
+				113EA7C021761D9800EDD862 /* Calendar */,
+				113EA7B721761CB900EDD862 /* LaunchScreen.storyboard */,
+				113EA7BA21761CB900EDD862 /* Info.plist */,
 			);
 			path = PersianCalender;
+			sourceTree = "<group>";
+		};
+		113EA7C021761D9800EDD862 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				113EA7C121761D9800EDD862 /* CalendarViewController.swift */,
+				113EA7C221761D9800EDD862 /* CalendarViewController.xib */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		113EA7C521761DF100EDD862 /* Extensiones */ = {
+			isa = PBXGroup;
+			children = (
+				113EA7C621761DF100EDD862 /* Date.swift */,
+				113EA7E02176233400EDD862 /* UIColor.swift */,
+				113EA7C721761DF100EDD862 /* UIView.swift */,
+				113EA7C921761DF100EDD862 /* UIDevice.swift */,
+			);
+			path = Extensiones;
+			sourceTree = "<group>";
+		};
+		113EA7D42176210700EDD862 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				113EA7E2217627CB00EDD862 /* Utility.swift */,
+				113EA7D52176210700EDD862 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		113EA7D52176210700EDD862 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				113EA7D62176210700EDD862 /* IRAN Sans.ttf */,
+				113EA7D72176210700EDD862 /* IRAN Sans Medium.ttf */,
+				113EA7D82176210700EDD862 /* IRAN Sans Light.ttf */,
+				113EA7D92176210700EDD862 /* IRAN Sans Bold.ttf */,
+				113EA7DA2176210700EDD862 /* IRAN Sans UltraLight.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		113326D62370661000A6A518 /* PersianCalender */ = {
+		113EA7AA21761CB700EDD862 /* PersianCalender */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 113326EC2370661200A6A518 /* Build configuration list for PBXNativeTarget "PersianCalender" */;
+			buildConfigurationList = 113EA7BD21761CB900EDD862 /* Build configuration list for PBXNativeTarget "PersianCalender" */;
 			buildPhases = (
-				113326D32370661000A6A518 /* Sources */,
-				113326D42370661000A6A518 /* Frameworks */,
-				113326D52370661000A6A518 /* Resources */,
+				113EA7A721761CB700EDD862 /* Sources */,
+				113EA7A821761CB700EDD862 /* Frameworks */,
+				113EA7A921761CB700EDD862 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +152,25 @@
 			);
 			name = PersianCalender;
 			productName = PersianCalender;
-			productReference = 113326D72370661000A6A518 /* PersianCalender.app */;
+			productReference = 113EA7AB21761CB700EDD862 /* PersianCalender.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		113326CF2370661000A6A518 /* Project object */ = {
+		113EA7A321761CB700EDD862 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Mahdi Moayeri";
 				TargetAttributes = {
-					113326D62370661000A6A518 = {
-						CreatedOnToolsVersion = 10.1;
+					113EA7AA21761CB700EDD862 = {
+						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = 113326D22370661000A6A518 /* Build configuration list for PBXProject "PersianCalender" */;
+			buildConfigurationList = 113EA7A621761CB700EDD862 /* Build configuration list for PBXProject "PersianCalender" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +178,67 @@
 				en,
 				Base,
 			);
-			mainGroup = 113326CE2370661000A6A518;
-			productRefGroup = 113326D82370661000A6A518 /* Products */;
+			mainGroup = 113EA7A221761CB700EDD862;
+			productRefGroup = 113EA7AC21761CB700EDD862 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				113326D62370661000A6A518 /* PersianCalender */,
+				113EA7AA21761CB700EDD862 /* PersianCalender */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		113326D52370661000A6A518 /* Resources */ = {
+		113EA7A921761CB700EDD862 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				113326E82370661200A6A518 /* LaunchScreen.storyboard in Resources */,
-				113326E52370661200A6A518 /* Assets.xcassets in Resources */,
-				113326E02370661000A6A518 /* Main.storyboard in Resources */,
+				113EA7DD2176210700EDD862 /* IRAN Sans Light.ttf in Resources */,
+				113EA7C421761D9900EDD862 /* CalendarViewController.xib in Resources */,
+				113EA7DF2176210700EDD862 /* IRAN Sans UltraLight.ttf in Resources */,
+				113EA7DB2176210700EDD862 /* IRAN Sans.ttf in Resources */,
+				113EA7DC2176210700EDD862 /* IRAN Sans Medium.ttf in Resources */,
+				113EA7B921761CB900EDD862 /* LaunchScreen.storyboard in Resources */,
+				113EA7B621761CB900EDD862 /* Assets.xcassets in Resources */,
+				113EA7DE2176210700EDD862 /* IRAN Sans Bold.ttf in Resources */,
+				113EA7B421761CB700EDD862 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		113326D32370661000A6A518 /* Sources */ = {
+		113EA7A721761CB700EDD862 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				113326E32370661000A6A518 /* PersianCalender.xcdatamodeld in Sources */,
-				113326DD2370661000A6A518 /* ViewController.swift in Sources */,
-				113326DB2370661000A6A518 /* AppDelegate.swift in Sources */,
+				113EA7CD21761DF100EDD862 /* UIView.swift in Sources */,
+				113EA7C321761D9900EDD862 /* CalendarViewController.swift in Sources */,
+				113EA7E3217627CB00EDD862 /* Utility.swift in Sources */,
+				113EA7B121761CB700EDD862 /* ViewController.swift in Sources */,
+				113EA7AF21761CB700EDD862 /* AppDelegate.swift in Sources */,
+				113EA7D32176200C00EDD862 /* Constants.swift in Sources */,
+				113EA7E12176233400EDD862 /* UIColor.swift in Sources */,
+				113EA7CC21761DF100EDD862 /* Date.swift in Sources */,
+				113EA7CF21761DF100EDD862 /* UIDevice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		113326DE2370661000A6A518 /* Main.storyboard */ = {
+		113EA7B221761CB700EDD862 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				113326DF2370661000A6A518 /* Base */,
+				113EA7B321761CB700EDD862 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		113326E62370661200A6A518 /* LaunchScreen.storyboard */ = {
+		113EA7B721761CB900EDD862 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				113326E72370661200A6A518 /* Base */,
+				113EA7B821761CB900EDD862 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +246,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		113326EA2370661200A6A518 /* Debug */ = {
+		113EA7BB21761CB900EDD862 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -227,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		113326EB2370661200A6A518 /* Release */ = {
+		113EA7BC21761CB900EDD862 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,7 +362,7 @@
 			};
 			name = Release;
 		};
-		113326ED2370661200A6A518 /* Debug */ = {
+		113EA7BE21761CB900EDD862 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -293,14 +373,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.notron.PersianCalender;
+				PRODUCT_BUNDLE_IDENTIFIER = com.persianCalender.PersianCalender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		113326EE2370661200A6A518 /* Release */ = {
+		113EA7BF21761CB900EDD862 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -311,7 +391,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.notron.PersianCalender;
+				PRODUCT_BUNDLE_IDENTIFIER = com.persianCalender.PersianCalender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,38 +401,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		113326D22370661000A6A518 /* Build configuration list for PBXProject "PersianCalender" */ = {
+		113EA7A621761CB700EDD862 /* Build configuration list for PBXProject "PersianCalender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				113326EA2370661200A6A518 /* Debug */,
-				113326EB2370661200A6A518 /* Release */,
+				113EA7BB21761CB900EDD862 /* Debug */,
+				113EA7BC21761CB900EDD862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		113326EC2370661200A6A518 /* Build configuration list for PBXNativeTarget "PersianCalender" */ = {
+		113EA7BD21761CB900EDD862 /* Build configuration list for PBXNativeTarget "PersianCalender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				113326ED2370661200A6A518 /* Debug */,
-				113326EE2370661200A6A518 /* Release */,
+				113EA7BE21761CB900EDD862 /* Debug */,
+				113EA7BF21761CB900EDD862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		113326E12370661000A6A518 /* PersianCalender.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				113326E22370661000A6A518 /* PersianCalender.xcdatamodel */,
-			);
-			currentVersion = 113326E22370661000A6A518 /* PersianCalender.xcdatamodel */;
-			path = PersianCalender.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 113326CF2370661000A6A518 /* Project object */;
+	rootObject = 113EA7A321761CB700EDD862 /* Project object */;
 }
